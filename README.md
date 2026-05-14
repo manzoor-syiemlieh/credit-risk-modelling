@@ -68,7 +68,10 @@ PD outputs into an interpretable credit scorecard for lending decisions.
 LendingClub Loan Data 2007–2014
 - 466,285 loan records
 - 74 raw features
-- Source: Kaggle / LendingClub public dataset
+- Download from Kaggle:
+  https://www.kaggle.com/datasets/wordsforthewise/lending-club
+- Place the downloaded file in the data/ folder as:
+  loan_data_2007_2014.csv
 
 ## Author
 **Manzoor Syiemlieh**
