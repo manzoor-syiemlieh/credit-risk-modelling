@@ -64,14 +64,30 @@ PD outputs into an interpretable credit scorecard for lending decisions.
   10% capital buffer constraint
 - PSI monitoring confirms model stability on new population data
 
-## Dataset
+## Dataset & Data Files
+
+### Original Dataset
 LendingClub Loan Data 2007–2014
-- 466,285 loan records
-- 74 raw features
+- 466,285 loan records, 74 raw features
 - Download from Kaggle:
   https://www.kaggle.com/datasets/wordsforthewise/lending-club
-- Place the downloaded file in the data/ folder as:
-  loan_data_2007_2014.csv
+- Place as: data/loan_data_2007_2014.csv
+
+### Generated Data Files
+Run 01_Data_Preprocessing_and_Preparation.ipynb first to generate:
+- data/loan_data_inputs_train.csv (373,028 records)
+- data/loan_data_targets_train.csv
+- data/loan_data_inputs_test.csv (93,257 records)
+- data/loan_data_targets_test.csv
+
+These files are required to run 02_PD_Model_and_Scorecard.ipynb
+
+### Scorecard Files
+Running 02_PD_Model_and_Scorecard.ipynb generates:
+- data/inputs_train_with_ref_cat.csv
+- data/df_scorecard.csv
+
+These files are required for subsequent notebooks.
 
 ## Author
 **Manzoor Syiemlieh**
