@@ -62,6 +62,8 @@ These are honest, application-time numbers. The model uses only at-application f
 | Total funded amount | $6.66B |
 | **EL as % of portfolio** | **7.52%** |
 
+PSI monitoring on the 2015 population shows the overall score distribution is stable (PSI ≈ 0) with most features below 0.1, while initial_list_status drifted past the 0.25 threshold and would trigger a recalibration review.
+
 Portfolio EL of 7.52% sits below the typical 10% regulatory capital buffer, which supports a sustainable lending posture under that constraint. The LGD stage-1 model is the weakest link (AUC 0.65) and is the clearest target for future improvement.
 
 ## Run it
